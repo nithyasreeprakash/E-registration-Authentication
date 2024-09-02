@@ -16,7 +16,7 @@ if (!empty($roll) || !empty($name) || !empty($password) || !empty($email) || !em
   $host = "localhost";
   $dbUsername = "root";
   $dbPassword = "";
-  $dbname = "prasun";
+  $dbname = "database";
   // create connection
   $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
   if (mysqli_connect_error()) 
